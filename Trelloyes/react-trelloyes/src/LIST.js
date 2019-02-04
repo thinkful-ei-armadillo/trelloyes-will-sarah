@@ -1,7 +1,11 @@
 function List(props) {
     // use the array of cardsto make an `<div>` for each card
-    const customLis = props.contacts.map(function(contact) {
-      return <CustomContactLi key={contact} />
+    const customLis = props.cards.map(card => {
+    //   return <CustomContactLi key={card} />
+        return (
+            
+        )
+
     });
     
     
