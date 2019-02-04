@@ -1,5 +1,3 @@
-
-
 function Card(props) {
     console.log(`Card is running somewhere.`)
     return (
